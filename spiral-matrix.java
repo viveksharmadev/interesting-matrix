@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/spiral-matrix/
 class Solution {
-    //tc - N where N is m*n
-    //sc - N where N is m*n
+    //tc - N where N is m+n
+    //sc - N where N is m+n
     public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> result = new LinkedList<>();
         if(matrix==null || matrix.length==0) return result;
